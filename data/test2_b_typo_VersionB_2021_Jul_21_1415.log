@@ -1,0 +1,533 @@
+8.1939 	INFO 	Loaded monitor calibration from ['2021_03_04 14:25']
+8.9384 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fc1e99ebac8>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fc1e9a26be0>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+8.9387 	EXP 	window1: mouseVisible = True
+8.9387 	EXP 	window1: recordFrameIntervals = False
+9.1031 	EXP 	window1: recordFrameIntervals = True
+9.2644 	WARNING 	t of last frame was 28.94ms (=1/34)
+9.4713 	DEBUG 	Screen (0) actual frame rate measured at 59.55
+9.4714 	EXP 	window1: recordFrameIntervals = False
+9.9008 	EXP 	Created wordInst = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='wordInst', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.2113 	EXP 	Created wordInst2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='wordInst2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.5104 	EXP 	Created wordPrac = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='wordPrac', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+10.9012 	EXP 	Sound beepPrac set volume 0.500
+10.9102 	EXP 	Created proceedPrac = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='proceedPrac', opacity=1, ori=0, pos=array([ 0.  , -0.25]), rgb=UNKNOWN, text='Press space to proceed', units='height', win=Window(...), wrapWidth=1)
+10.9128 	EXP 	Created ITI1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='ITI1', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+10.9327 	EXP 	Created word_great = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='word_great', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+11.2462 	EXP 	Created wordStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='wordStim', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+11.5576 	EXP 	Created proceed3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='proceed3', opacity=1, ori=0, pos=array([ 0.  , -0.25]), rgb=UNKNOWN, text='Press space to proceed', units='height', win=Window(...), wrapWidth=1)
+11.5582 	EXP 	Sound wordBeep set volume 0.500
+11.5588 	EXP 	Created ITI2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='ITI2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+11.5770 	EXP 	Created word_difficulty = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='word_difficulty', opacity=1, ori=0.0, pos=array([0.  , 0.25]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+11.5902 	INFO 	Mouse: using default window
+11.5903 	EXP 	window1: mouseVisible = True
+11.6191 	EXP 	Created diffRating = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=1.0, labelHeight=0.04, labelWrapWidth=None, labels=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10], name='diffRating', opacity=None, pos=(0, 0), readOnly=False, self=UNKNOWN, size=(1.0, 0.1), style=method-wrapper(...), styleTweaks=method-wrapper(...), ticks=array([ 1,  2,  3,  4,  5,  6,  7,  8,  9, 10]), units='height', win=Window(...))
+11.6247 	EXP 	Created tired = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='tired', opacity=1, ori=0.0, pos=array([0.  , 0.25]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+11.6266 	INFO 	Mouse: using default window
+11.6267 	EXP 	window1: mouseVisible = True
+11.6439 	EXP 	Created fatigueRating = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=1.0, labelHeight=0.04, labelWrapWidth=None, labels=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10], name='fatigueRating', opacity=None, pos=(0, 0), readOnly=False, self=UNKNOWN, size=(1.0, 0.1), style=method-wrapper(...), styleTweaks=method-wrapper(...), ticks=array([ 1,  2,  3,  4,  5,  6,  7,  8,  9, 10]), units='height', win=Window(...))
+11.6638 	EXP 	Created senInst = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='senInst', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+11.9816 	EXP 	Created senInst2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='senInst2', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.2904 	EXP 	Created sentPrac = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='sentPrac', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+12.5985 	EXP 	Sound beepSentPrac set volume 0.500
+12.6050 	EXP 	Created proceedSent = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='proceedSent', opacity=1, ori=0, pos=array([ 0.  , -0.25]), rgb=UNKNOWN, text='Press space to proceed', units='height', win=Window(...), wrapWidth=1)
+12.6057 	EXP 	Created ITI3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='ITI3', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+12.6369 	EXP 	Created block2Intro = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='block2Intro', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.9544 	EXP 	Created nonsenseStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='nonsenseStim', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+13.2711 	EXP 	Created proceed8 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='proceed8', opacity=1, ori=0.0, pos=array([ 0.  , -0.25]), rgb=UNKNOWN, text='Press space to proceed', units='height', win=Window(...), wrapWidth=1)
+13.2756 	EXP 	Sound nonsenseBeep set volume 1.000
+13.2764 	EXP 	Created ITI4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='ITI4', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+13.2838 	EXP 	Created sent_difficulty = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='sent_difficulty', opacity=1, ori=0.0, pos=array([0.  , 0.25]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+13.2856 	INFO 	Mouse: using default window
+13.2858 	EXP 	window1: mouseVisible = True
+13.3082 	EXP 	Created sentRating = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=1.0, labelHeight=0.04, labelWrapWidth=None, labels=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10], name='sentRating', opacity=None, pos=(0, 0), readOnly=False, self=UNKNOWN, size=(1.0, 0.1), style=method-wrapper(...), styleTweaks=method-wrapper(...), ticks=array([ 1,  2,  3,  4,  5,  6,  7,  8,  9, 10]), units='height', win=Window(...))
+13.3138 	EXP 	Created tired = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='tired', opacity=1, ori=0.0, pos=array([0.  , 0.25]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+13.3157 	INFO 	Mouse: using default window
+13.3158 	EXP 	window1: mouseVisible = True
+13.3332 	EXP 	Created fatigueRating = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=1.0, labelHeight=0.04, labelWrapWidth=None, labels=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10], name='fatigueRating', opacity=None, pos=(0, 0), readOnly=False, self=UNKNOWN, size=(1.0, 0.1), style=method-wrapper(...), styleTweaks=method-wrapper(...), ticks=array([ 1,  2,  3,  4,  5,  6,  7,  8,  9, 10]), units='height', win=Window(...))
+13.3463 	EXP 	Created block3Intro = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='block3Intro', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+13.6600 	EXP 	Created sentStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='sentStim', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+13.9732 	EXP 	Created proceed6 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='proceed6', opacity=1, ori=0.0, pos=array([ 0.  , -0.25]), rgb=UNKNOWN, text='Press space to proceed', units='height', win=Window(...), wrapWidth=1)
+13.9748 	EXP 	Sound sentBeep set volume 1.000
+13.9754 	EXP 	Created ITI5 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='ITI5', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+13.9808 	EXP 	Created sent_difficulty = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='sent_difficulty', opacity=1, ori=0.0, pos=array([0.  , 0.25]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+13.9827 	INFO 	Mouse: using default window
+13.9828 	EXP 	window1: mouseVisible = True
+14.0002 	EXP 	Created sentRating = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=1.0, labelHeight=0.04, labelWrapWidth=None, labels=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10], name='sentRating', opacity=None, pos=(0, 0), readOnly=False, self=UNKNOWN, size=(1.0, 0.1), style=method-wrapper(...), styleTweaks=method-wrapper(...), ticks=array([ 1,  2,  3,  4,  5,  6,  7,  8,  9, 10]), units='height', win=Window(...))
+14.0063 	EXP 	Created tired = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='tired', opacity=1, ori=0.0, pos=array([0.  , 0.25]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+14.0082 	INFO 	Mouse: using default window
+14.0083 	EXP 	window1: mouseVisible = True
+14.0257 	EXP 	Created fatigueRating = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=1.0, labelHeight=0.04, labelWrapWidth=None, labels=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10], name='fatigueRating', opacity=None, pos=(0, 0), readOnly=False, self=UNKNOWN, size=(1.0, 0.1), style=method-wrapper(...), styleTweaks=method-wrapper(...), ticks=array([ 1,  2,  3,  4,  5,  6,  7,  8,  9, 10]), units='height', win=Window(...))
+14.0409 	EXP 	Created strategyUse = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='strategyUse', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+14.3546 	EXP 	Created thanks = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='thanks', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+14.6874 	EXP 	diffRating: autoLog = True
+14.6874 	EXP 	diffRating: markerPos = None
+14.6874 	EXP 	diffRating: rating = None
+14.6874 	EXP 	diffRating: markerPos = None
+14.6874 	EXP 	diffRating: contrast = 1.0
+14.6874 	EXP 	diffRating: autoLog = True
+14.6874 	EXP 	diffRating: styleTweaks = []
+14.6874 	EXP 	diffRating: style = 'rating'
+14.6874 	EXP 	diffRating: styleTweaks = []
+14.6874 	EXP 	fatigueRating: autoLog = True
+14.6874 	EXP 	fatigueRating: markerPos = None
+14.6874 	EXP 	fatigueRating: rating = None
+14.6874 	EXP 	fatigueRating: markerPos = None
+14.6874 	EXP 	fatigueRating: contrast = 1.0
+14.6874 	EXP 	fatigueRating: autoLog = True
+14.6874 	EXP 	fatigueRating: styleTweaks = []
+14.6874 	EXP 	fatigueRating: style = 'rating'
+14.6874 	EXP 	fatigueRating: styleTweaks = []
+14.6874 	EXP 	sentRating: autoLog = True
+14.6874 	EXP 	sentRating: markerPos = None
+14.6874 	EXP 	sentRating: rating = None
+14.6874 	EXP 	sentRating: markerPos = None
+14.6874 	EXP 	sentRating: contrast = 1.0
+14.6874 	EXP 	sentRating: autoLog = True
+14.6874 	EXP 	sentRating: styleTweaks = []
+14.6874 	EXP 	sentRating: style = 'rating'
+14.6874 	EXP 	sentRating: styleTweaks = []
+14.6874 	EXP 	fatigueRating: autoLog = True
+14.6874 	EXP 	fatigueRating: markerPos = None
+14.6874 	EXP 	fatigueRating: rating = None
+14.6874 	EXP 	fatigueRating: markerPos = None
+14.6874 	EXP 	fatigueRating: contrast = 1.0
+14.6874 	EXP 	fatigueRating: autoLog = True
+14.6874 	EXP 	fatigueRating: styleTweaks = []
+14.6874 	EXP 	fatigueRating: style = 'rating'
+14.6874 	EXP 	fatigueRating: styleTweaks = []
+14.6874 	EXP 	sentRating: autoLog = True
+14.6874 	EXP 	sentRating: markerPos = None
+14.6874 	EXP 	sentRating: rating = None
+14.6874 	EXP 	sentRating: markerPos = None
+14.6874 	EXP 	sentRating: contrast = 1.0
+14.6874 	EXP 	sentRating: autoLog = True
+14.6874 	EXP 	sentRating: styleTweaks = []
+14.6874 	EXP 	sentRating: style = 'rating'
+14.6874 	EXP 	sentRating: styleTweaks = []
+14.6874 	EXP 	fatigueRating: autoLog = True
+14.6874 	EXP 	fatigueRating: markerPos = None
+14.6874 	EXP 	fatigueRating: rating = None
+14.6874 	EXP 	fatigueRating: markerPos = None
+14.6874 	EXP 	fatigueRating: contrast = 1.0
+14.6874 	EXP 	fatigueRating: autoLog = True
+14.6874 	EXP 	fatigueRating: styleTweaks = []
+14.6874 	EXP 	fatigueRating: style = 'rating'
+14.6874 	EXP 	fatigueRating: styleTweaks = []
+14.6874 	EXP 	wordInst: autoDraw = True
+38.9744 	DATA 	Keypress: space
+38.9853 	EXP 	wordInst: autoDraw = False
+38.9853 	EXP 	wordInst2: autoDraw = True
+41.7575 	DATA 	Keypress: space
+41.7766 	DEBUG 	Read excel file with openpyxl: wordprac.xlsx
+41.7772 	EXP 	Imported wordprac.xlsx as conditions, 5 conditions, 3 params
+41.7774 	EXP 	Created sequence: sequential, trialTypes=5, nReps=1, seed=None
+41.7777 	EXP 	New trial (rep=0, index=0): {'word': 'gmae', 'resp': 'space', 'beep': 'audio/beep.wav'}
+41.7949 	EXP 	wordInst2: autoDraw = False
+41.7949 	EXP 	wordPrac: text = 'gmae'
+41.7949 	EXP 	ITI1: text = '+'
+41.7949 	EXP 	proceedPrac: autoDraw = True
+41.7949 	EXP 	ITI1: autoDraw = True
+42.9354 	EXP 	Sound beepPrac started
+42.9354 	EXP 	wordPrac: autoDraw = True
+42.9520 	EXP 	ITI1: autoDraw = False
+43.1218 	EXP 	Sound beepPrac stopped
+43.3534 	EXP 	New trial (rep=0, index=1): {'word': 'wsih', 'resp': 'space', 'beep': 'audio/beep.wav'}
+43.3615 	DATA 	Keypress: space
+43.3701 	EXP 	wordPrac: autoDraw = False
+43.3701 	EXP 	proceedPrac: autoDraw = False
+43.3701 	EXP 	ITI1: autoDraw = False
+43.3701 	EXP 	wordPrac: text = 'wsih'
+43.3701 	EXP 	ITI1: text = '+'
+43.3701 	EXP 	proceedPrac: autoDraw = True
+43.3701 	EXP 	ITI1: autoDraw = True
+44.5858 	EXP 	Sound beepPrac started
+44.5857 	EXP 	wordPrac: autoDraw = True
+44.6025 	EXP 	ITI1: autoDraw = False
+44.7719 	EXP 	Sound beepPrac stopped
+44.9540 	EXP 	New trial (rep=0, index=2): {'word': 'numreb', 'resp': 'space', 'beep': 'audio/beep.wav'}
+44.9622 	DATA 	Keypress: space
+44.9716 	EXP 	wordPrac: autoDraw = False
+44.9716 	EXP 	proceedPrac: autoDraw = False
+44.9716 	EXP 	ITI1: autoDraw = False
+44.9716 	EXP 	wordPrac: text = 'numreb'
+44.9716 	EXP 	ITI1: text = '+'
+44.9716 	EXP 	proceedPrac: autoDraw = True
+44.9716 	EXP 	ITI1: autoDraw = True
+46.2523 	EXP 	Sound beepPrac started
+46.2524 	EXP 	wordPrac: autoDraw = True
+46.2690 	EXP 	ITI1: autoDraw = False
+46.4385 	EXP 	Sound beepPrac stopped
+46.5869 	EXP 	New trial (rep=0, index=3): {'word': 'chcnae', 'resp': 'space', 'beep': 'audio/beep.wav'}
+46.5941 	DATA 	Keypress: space
+46.6032 	EXP 	wordPrac: autoDraw = False
+46.6032 	EXP 	proceedPrac: autoDraw = False
+46.6032 	EXP 	ITI1: autoDraw = False
+46.6032 	EXP 	wordPrac: text = 'chcnae'
+46.6032 	EXP 	ITI1: text = '+'
+46.6032 	EXP 	proceedPrac: autoDraw = True
+46.6032 	EXP 	ITI1: autoDraw = True
+47.8023 	EXP 	Sound beepPrac started
+47.8025 	EXP 	wordPrac: autoDraw = True
+47.8190 	EXP 	ITI1: autoDraw = False
+47.9888 	EXP 	Sound beepPrac stopped
+48.2035 	EXP 	New trial (rep=0, index=4): {'word': 'wordl', 'resp': 'space', 'beep': 'audio/beep.wav'}
+48.2112 	DATA 	Keypress: space
+48.2208 	EXP 	wordPrac: autoDraw = False
+48.2208 	EXP 	proceedPrac: autoDraw = False
+48.2208 	EXP 	ITI1: autoDraw = False
+48.2208 	EXP 	wordPrac: text = 'wordl'
+48.2208 	EXP 	ITI1: text = '+'
+48.2208 	EXP 	proceedPrac: autoDraw = True
+48.2208 	EXP 	ITI1: autoDraw = True
+49.6689 	EXP 	Sound beepPrac started
+49.6689 	EXP 	wordPrac: autoDraw = True
+49.7023 	EXP 	ITI1: autoDraw = False
+49.8552 	EXP 	Sound beepPrac stopped
+50.1401 	DATA 	Keypress: space
+50.1525 	EXP 	wordPrac: autoDraw = False
+50.1525 	EXP 	proceedPrac: autoDraw = False
+50.1525 	EXP 	ITI1: autoDraw = False
+50.1525 	EXP 	word_great: autoDraw = True
+51.6295 	DEBUG 	Read excel file with openpyxl: word_cond.xlsx
+51.6359 	EXP 	Imported word_cond.xlsx as conditions, 4 conditions, 3 params
+51.6362 	EXP 	Created sequence: sequential, trialTypes=4, nReps=1, seed=None
+51.6364 	EXP 	New trial (rep=0, index=0): {'word': 'advance', 'resp': 'space', 'beep': 'audio/beep.wav'}
+51.6460 	DATA 	Keypress: space
+51.6552 	EXP 	word_great: autoDraw = False
+51.6552 	EXP 	wordStim: text = 'advance'
+51.6552 	EXP 	ITI2: text = '+'
+51.6552 	EXP 	proceed3: autoDraw = True
+51.6552 	EXP 	ITI2: autoDraw = True
+52.9862 	EXP 	wordStim: autoDraw = True
+52.9864 	EXP 	Sound wordBeep started
+53.0027 	EXP 	ITI2: autoDraw = False
+53.1890 	EXP 	Sound wordBeep stopped
+53.3878 	EXP 	New trial (rep=0, index=1): {'word': 'prbolem', 'resp': 'space', 'beep': 'audio/beep.wav'}
+53.3957 	DATA 	Keypress: space
+53.4064 	EXP 	wordStim: autoDraw = False
+53.4064 	EXP 	proceed3: autoDraw = False
+53.4064 	EXP 	ITI2: autoDraw = False
+53.4064 	EXP 	wordStim: text = 'prbolem'
+53.4064 	EXP 	ITI2: text = '+'
+53.4064 	EXP 	proceed3: autoDraw = True
+53.4064 	EXP 	ITI2: autoDraw = True
+54.6026 	EXP 	wordStim: autoDraw = True
+54.6029 	EXP 	Sound wordBeep started
+54.6360 	EXP 	ITI2: autoDraw = False
+54.8056 	EXP 	Sound wordBeep stopped
+54.9374 	EXP 	New trial (rep=0, index=2): {'word': 'originla', 'resp': 'space', 'beep': 'audio/beep.wav'}
+54.9438 	DATA 	Keypress: space
+54.9534 	EXP 	wordStim: autoDraw = False
+54.9534 	EXP 	proceed3: autoDraw = False
+54.9534 	EXP 	ITI2: autoDraw = False
+54.9534 	EXP 	wordStim: text = 'originla'
+54.9534 	EXP 	ITI2: text = '+'
+54.9534 	EXP 	proceed3: autoDraw = True
+54.9534 	EXP 	ITI2: autoDraw = True
+56.3528 	EXP 	wordStim: autoDraw = True
+56.3530 	EXP 	Sound wordBeep started
+56.3694 	EXP 	ITI2: autoDraw = False
+56.5558 	EXP 	Sound wordBeep stopped
+56.7207 	EXP 	New trial (rep=0, index=3): {'word': 'party', 'resp': 'space', 'beep': 'audio/beep.wav'}
+56.7281 	DATA 	Keypress: space
+56.7378 	EXP 	wordStim: autoDraw = False
+56.7378 	EXP 	proceed3: autoDraw = False
+56.7378 	EXP 	ITI2: autoDraw = False
+56.7378 	EXP 	wordStim: text = 'party'
+56.7378 	EXP 	ITI2: text = '+'
+56.7378 	EXP 	proceed3: autoDraw = True
+56.7378 	EXP 	ITI2: autoDraw = True
+58.0694 	EXP 	wordStim: autoDraw = True
+58.0696 	EXP 	Sound wordBeep started
+58.1028 	EXP 	ITI2: autoDraw = False
+58.2725 	EXP 	Sound wordBeep stopped
+58.3068 	DATA 	Keypress: space
+58.3490 	EXP 	wordStim: autoDraw = False
+58.3490 	EXP 	proceed3: autoDraw = False
+58.3490 	EXP 	ITI2: autoDraw = False
+58.3490 	EXP 	diffRating: markerPos = None
+58.3490 	EXP 	diffRating: markerPos = None
+58.3490 	EXP 	diffRating: rating = None
+58.3490 	EXP 	word_difficulty: autoDraw = True
+58.3490 	EXP 	diffRating: autoDraw = True
+59.1389 	DATA 	Mouse: Left button down, pos=(487,508)
+59.2515 	DATA 	Mouse:  Left button up, pos=(487,507)
+59.4549 	DATA 	Mouse: Left button down, pos=(486,480)
+59.4870 	EXP 	diffRating: markerPos = 3.16
+59.5066 	EXP 	diffRating: markerPos = 3.16
+59.5256 	EXP 	diffRating: markerPos = 3.16
+59.5354 	DATA 	Mouse:  Left button up, pos=(486,480)
+59.5444 	EXP 	diffRating: markerPos = 3.16
+59.5619 	EXP 	diffRating: markerPos = 3.0
+59.5619 	EXP 	diffRating: rating = 3.0
+59.5845 	EXP 	word_difficulty: autoDraw = False
+59.5845 	EXP 	diffRating: autoDraw = False
+59.5845 	EXP 	fatigueRating: markerPos = None
+59.5845 	EXP 	fatigueRating: markerPos = None
+59.5845 	EXP 	fatigueRating: rating = None
+59.5845 	EXP 	tired: autoDraw = True
+59.5845 	EXP 	fatigueRating: autoDraw = True
+59.6943 	DATA 	Mouse: Left button down, pos=(486,482)
+59.7117 	EXP 	fatigueRating: markerPos = 3.16
+59.7322 	EXP 	fatigueRating: markerPos = 3.16
+59.7518 	EXP 	fatigueRating: markerPos = 3.16
+59.7694 	EXP 	fatigueRating: markerPos = 3.16
+59.7710 	DATA 	Mouse:  Left button up, pos=(486,482)
+59.7897 	EXP 	fatigueRating: markerPos = 3.0
+59.7897 	EXP 	fatigueRating: rating = 3.0
+59.8029 	EXP 	tired: autoDraw = False
+59.8029 	EXP 	fatigueRating: autoDraw = False
+59.8029 	EXP 	senInst: autoDraw = True
+61.6889 	DATA 	Keypress: space
+61.7019 	EXP 	senInst: autoDraw = False
+61.7019 	EXP 	senInst2: autoDraw = True
+63.3750 	DEBUG 	Read excel file with openpyxl: sentprac.xlsx
+63.3755 	EXP 	Imported sentprac.xlsx as conditions, 4 conditions, 3 params
+63.3758 	EXP 	Created sequence: sequential, trialTypes=4, nReps=1, seed=None
+63.3760 	EXP 	New trial (rep=0, index=0): {'sentence': 'My sisret lisek to sgni in the shorew.', 'resp': 'space', 'beep': 'audio/beep.wav'}
+63.3886 	DATA 	Keypress: space
+63.3966 	EXP 	senInst2: autoDraw = False
+63.3966 	EXP 	sentPrac: text = 'My sisret lisek to sgni in the shorew.'
+63.3966 	EXP 	ITI3: text = '+'
+63.3966 	EXP 	proceedSent: autoDraw = True
+63.3966 	EXP 	ITI3: autoDraw = True
+64.3851 	EXP 	Sound beepSentPrac started
+64.3851 	EXP 	sentPrac: autoDraw = True
+64.4018 	EXP 	ITI3: autoDraw = False
+64.5715 	EXP 	Sound beepSentPrac stopped
+64.8531 	EXP 	New trial (rep=0, index=1): {'sentence': 'I had soem bacno and oatmela for breakfats.', 'resp': 'space', 'beep': 'audio/beep.wav'}
+64.8617 	DATA 	Keypress: space
+64.8711 	EXP 	sentPrac: autoDraw = False
+64.8711 	EXP 	proceedSent: autoDraw = False
+64.8711 	EXP 	ITI3: autoDraw = False
+64.8711 	EXP 	sentPrac: text = 'I had soem bacno and oatmela for breakfats.'
+64.8711 	EXP 	ITI3: text = '+'
+64.8711 	EXP 	proceedSent: autoDraw = True
+64.8711 	EXP 	ITI3: autoDraw = True
+66.2521 	EXP 	Sound beepSentPrac started
+66.2523 	EXP 	sentPrac: autoDraw = True
+66.2853 	EXP 	ITI3: autoDraw = False
+66.4386 	EXP 	Sound beepSentPrac stopped
+66.6895 	DATA 	Keypress: space
+66.7033 	EXP 	New trial (rep=0, index=2): {'sentence': 'You shluod caelr the brswoer hiotsry bofere you lvaee.', 'resp': 'space', 'beep': 'audio/beep.wav'}
+66.7195 	EXP 	sentPrac: autoDraw = False
+66.7195 	EXP 	proceedSent: autoDraw = False
+66.7195 	EXP 	ITI3: autoDraw = False
+66.7195 	EXP 	sentPrac: text = 'You shluod caelr the brswoer hiotsry bofere you lvaee.'
+66.7195 	EXP 	ITI3: text = '+'
+66.7195 	EXP 	proceedSent: autoDraw = True
+66.7195 	EXP 	ITI3: autoDraw = True
+68.0685 	EXP 	Sound beepSentPrac started
+68.0688 	EXP 	sentPrac: autoDraw = True
+68.1022 	EXP 	ITI3: autoDraw = False
+68.2550 	EXP 	Sound beepSentPrac stopped
+68.4032 	EXP 	New trial (rep=0, index=3): {'sentence': 'The paernts wree bsuy wtih wrok all monring.', 'resp': 'space', 'beep': 'audio/beep.wav'}
+68.4107 	DATA 	Keypress: space
+68.4197 	EXP 	sentPrac: autoDraw = False
+68.4197 	EXP 	proceedSent: autoDraw = False
+68.4197 	EXP 	ITI3: autoDraw = False
+68.4197 	EXP 	sentPrac: text = 'The paernts wree bsuy wtih wrok all monring.'
+68.4197 	EXP 	ITI3: text = '+'
+68.4197 	EXP 	proceedSent: autoDraw = True
+68.4197 	EXP 	ITI3: autoDraw = True
+69.7520 	EXP 	Sound beepSentPrac started
+69.7520 	EXP 	sentPrac: autoDraw = True
+69.7680 	EXP 	ITI3: autoDraw = False
+69.9383 	EXP 	Sound beepSentPrac stopped
+70.2563 	DATA 	Keypress: space
+70.2689 	EXP 	sentPrac: autoDraw = False
+70.2689 	EXP 	proceedSent: autoDraw = False
+70.2689 	EXP 	ITI3: autoDraw = False
+70.2689 	EXP 	block2Intro: autoDraw = True
+72.4233 	DEBUG 	Read excel file with openpyxl: meaningless.xlsx
+72.4264 	EXP 	Imported meaningless.xlsx as conditions, 4 conditions, 3 params
+72.4267 	EXP 	Created sequence: sequential, trialTypes=4, nReps=1, seed=None
+72.4269 	EXP 	New trial (rep=0, index=0): {'sentence': 'The rued oystesr jumpde the casion shoudl shien for the unino.', 'resp': 'space', 'beep': 'audio/beep.wav'}
+72.4433 	DATA 	Keypress: space
+72.4546 	EXP 	block2Intro: autoDraw = False
+72.4546 	EXP 	nonsenseStim: text = 'The rued oystesr jumpde the casion shoudl shien for the unino.'
+72.4546 	EXP 	ITI4: text = '+'
+72.4546 	EXP 	proceed8: autoDraw = True
+72.4546 	EXP 	ITI4: autoDraw = True
+73.9025 	EXP 	Sound nonsenseBeep started
+73.9025 	EXP 	nonsenseStim: autoDraw = True
+73.9349 	EXP 	ITI4: autoDraw = False
+74.0888 	EXP 	Sound nonsenseBeep stopped
+76.6542 	EXP 	New trial (rep=0, index=1): {'sentence': 'He impldei wneh the diplotam and futeru wodlu horon.', 'resp': 'space', 'beep': 'audio/beep.wav'}
+76.6685 	DATA 	Keypress: space
+76.6775 	EXP 	nonsenseStim: autoDraw = False
+76.6775 	EXP 	proceed8: autoDraw = False
+76.6775 	EXP 	ITI4: autoDraw = False
+76.6775 	EXP 	nonsenseStim: text = 'He impldei wneh the diplotam and futeru wodlu horon.'
+76.6775 	EXP 	ITI4: text = '+'
+76.6775 	EXP 	proceed8: autoDraw = True
+76.6775 	EXP 	ITI4: autoDraw = True
+78.1353 	EXP 	Sound nonsenseBeep started
+78.1353 	EXP 	nonsenseStim: autoDraw = True
+78.1521 	EXP 	ITI4: autoDraw = False
+78.3215 	EXP 	Sound nonsenseBeep stopped
+78.5699 	EXP 	New trial (rep=0, index=2): {'sentence': 'A pretend turning cares for the stone numbers.', 'resp': 'space', 'beep': 'audio/beep.wav'}
+78.5803 	DATA 	Keypress: space
+78.5894 	EXP 	nonsenseStim: autoDraw = False
+78.5894 	EXP 	proceed8: autoDraw = False
+78.5894 	EXP 	ITI4: autoDraw = False
+78.5894 	EXP 	nonsenseStim: text = 'A pretend turning cares for the stone numbers.'
+78.5894 	EXP 	ITI4: text = '+'
+78.5894 	EXP 	proceed8: autoDraw = True
+78.5894 	EXP 	ITI4: autoDraw = True
+79.6519 	EXP 	Sound nonsenseBeep started
+79.6518 	EXP 	nonsenseStim: autoDraw = True
+79.6686 	EXP 	ITI4: autoDraw = False
+79.8414 	EXP 	Sound nonsenseBeep stopped
+80.1700 	EXP 	New trial (rep=0, index=3): {'sentence': 'The facotry on the dissater detials a sfot vactaion.', 'resp': 'space', 'beep': 'audio/beep.wav'}
+80.1792 	DATA 	Keypress: space
+80.1889 	EXP 	nonsenseStim: autoDraw = False
+80.1889 	EXP 	proceed8: autoDraw = False
+80.1889 	EXP 	ITI4: autoDraw = False
+80.1889 	EXP 	nonsenseStim: text = 'The facotry on the dissater detials a sfot vactaion.'
+80.1889 	EXP 	ITI4: text = '+'
+80.1889 	EXP 	proceed8: autoDraw = True
+80.1889 	EXP 	ITI4: autoDraw = True
+81.5685 	EXP 	Sound nonsenseBeep started
+81.5688 	EXP 	nonsenseStim: autoDraw = True
+81.5853 	EXP 	ITI4: autoDraw = False
+81.7548 	EXP 	Sound nonsenseBeep stopped
+82.1059 	DATA 	Keypress: space
+82.1405 	EXP 	nonsenseStim: autoDraw = False
+82.1405 	EXP 	proceed8: autoDraw = False
+82.1405 	EXP 	ITI4: autoDraw = False
+82.1405 	EXP 	sentRating: markerPos = None
+82.1405 	EXP 	sentRating: markerPos = None
+82.1405 	EXP 	sentRating: rating = None
+82.1405 	EXP 	sent_difficulty: autoDraw = True
+82.1405 	EXP 	sentRating: autoDraw = True
+82.8357 	DATA 	Mouse: Left button down, pos=(486,482)
+82.8655 	EXP 	sentRating: markerPos = 3.16
+82.8846 	EXP 	sentRating: markerPos = 3.16
+82.9019 	EXP 	sentRating: markerPos = 3.16
+82.9200 	EXP 	sentRating: markerPos = 3.16
+82.9392 	EXP 	sentRating: markerPos = 3.16
+82.9572 	EXP 	sentRating: markerPos = 3.16
+82.9676 	DATA 	Mouse:  Left button up, pos=(486,482)
+82.9760 	EXP 	sentRating: markerPos = 3.16
+82.9942 	EXP 	sentRating: markerPos = 3.0
+82.9942 	EXP 	sentRating: rating = 3.0
+83.0119 	EXP 	sent_difficulty: autoDraw = False
+83.0119 	EXP 	sentRating: autoDraw = False
+83.0119 	EXP 	fatigueRating: markerPos = None
+83.0119 	EXP 	fatigueRating: markerPos = None
+83.0119 	EXP 	fatigueRating: rating = None
+83.0119 	EXP 	tired: autoDraw = True
+83.0119 	EXP 	fatigueRating: autoDraw = True
+83.1312 	DATA 	Mouse: Left button down, pos=(486,479)
+83.1584 	EXP 	fatigueRating: markerPos = 3.16
+83.1761 	EXP 	fatigueRating: markerPos = 3.16
+83.1941 	EXP 	fatigueRating: markerPos = 3.16
+83.2111 	EXP 	fatigueRating: markerPos = 3.16
+83.2219 	DATA 	Mouse:  Left button up, pos=(486,479)
+83.2323 	EXP 	fatigueRating: markerPos = 3.16
+83.2513 	EXP 	fatigueRating: markerPos = 3.0
+83.2513 	EXP 	fatigueRating: rating = 3.0
+83.2603 	EXP 	tired: autoDraw = False
+83.2603 	EXP 	fatigueRating: autoDraw = False
+83.2603 	EXP 	block3Intro: autoDraw = True
+84.0380 	DATA 	Keypress: space
+85.1908 	DEBUG 	Read excel file with openpyxl: meaningful.xlsx
+85.1971 	EXP 	Imported meaningful.xlsx as conditions, 4 conditions, 3 params
+85.1974 	EXP 	Created sequence: sequential, trialTypes=4, nReps=1, seed=None
+85.1976 	EXP 	New trial (rep=0, index=0): {'sentence': 'My classse consuem the majoriyt of my tiem.', 'resp': 'space', 'beep': 'audio/beep.wav'}
+85.2078 	DATA 	Keypress: space
+85.2180 	EXP 	block3Intro: autoDraw = False
+85.2180 	EXP 	sentStim: text = 'My classse consuem the majoriyt of my tiem.'
+85.2180 	EXP 	ITI5: text = '+'
+85.2180 	EXP 	proceed6: autoDraw = True
+85.2180 	EXP 	ITI5: autoDraw = True
+86.6685 	EXP 	Sound sentBeep started
+86.6685 	EXP 	sentStim: autoDraw = True
+86.7020 	EXP 	ITI5: autoDraw = False
+86.8548 	EXP 	Sound sentBeep stopped
+87.3204 	EXP 	New trial (rep=0, index=1): {'sentence': 'At her weiddng ceromeny she ceird hppay traes.', 'resp': 'space', 'beep': 'audio/beep.wav'}
+87.3281 	DATA 	Keypress: space
+87.3381 	EXP 	sentStim: autoDraw = False
+87.3381 	EXP 	proceed6: autoDraw = False
+87.3381 	EXP 	ITI5: autoDraw = False
+87.3381 	EXP 	sentStim: text = 'At her weiddng ceromeny she ceird hppay traes.'
+87.3381 	EXP 	ITI5: text = '+'
+87.3381 	EXP 	proceed6: autoDraw = True
+87.3381 	EXP 	ITI5: autoDraw = True
+88.6519 	EXP 	Sound sentBeep started
+88.6518 	EXP 	sentStim: autoDraw = True
+88.6685 	EXP 	ITI5: autoDraw = False
+88.8380 	EXP 	Sound sentBeep stopped
+89.1531 	EXP 	New trial (rep=0, index=2): {'sentence': 'His favirote lcnuh is a tuekry sawdnich on waeht baerd.', 'resp': 'space', 'beep': 'audio/beep.wav'}
+89.1620 	DATA 	Keypress: space
+89.1729 	EXP 	sentStim: autoDraw = False
+89.1729 	EXP 	proceed6: autoDraw = False
+89.1729 	EXP 	ITI5: autoDraw = False
+89.1729 	EXP 	sentStim: text = 'His favirote lcnuh is a tuekry sawdnich on waeht baerd.'
+89.1729 	EXP 	ITI5: text = '+'
+89.1729 	EXP 	proceed6: autoDraw = True
+89.1729 	EXP 	ITI5: autoDraw = True
+90.4185 	EXP 	Sound sentBeep started
+90.4185 	EXP 	sentStim: autoDraw = True
+90.4518 	EXP 	ITI5: autoDraw = False
+90.6047 	EXP 	Sound sentBeep stopped
+91.0391 	DATA 	Keypress: space
+91.0531 	EXP 	New trial (rep=0, index=3): {'sentence': 'He hated when the squid and whale would fight.', 'resp': 'space', 'beep': 'audio/beep.wav'}
+91.0693 	EXP 	sentStim: autoDraw = False
+91.0693 	EXP 	proceed6: autoDraw = False
+91.0693 	EXP 	ITI5: autoDraw = False
+91.0693 	EXP 	sentStim: text = 'He hated when the squid and whale would fight.'
+91.0693 	EXP 	ITI5: text = '+'
+91.0693 	EXP 	proceed6: autoDraw = True
+91.0693 	EXP 	ITI5: autoDraw = True
+92.3518 	EXP 	Sound sentBeep started
+92.3518 	EXP 	sentStim: autoDraw = True
+92.3678 	EXP 	ITI5: autoDraw = False
+92.5380 	EXP 	Sound sentBeep stopped
+92.9068 	DATA 	Keypress: space
+92.9230 	EXP 	sentStim: autoDraw = False
+92.9230 	EXP 	proceed6: autoDraw = False
+92.9230 	EXP 	ITI5: autoDraw = False
+92.9230 	EXP 	sentRating: markerPos = None
+92.9230 	EXP 	sentRating: markerPos = None
+92.9230 	EXP 	sentRating: rating = None
+92.9230 	EXP 	sent_difficulty: autoDraw = True
+92.9230 	EXP 	sentRating: autoDraw = True
+93.7136 	DATA 	Mouse: Left button down, pos=(483,438)
+93.7416 	EXP 	sentRating: markerPos = 3.1300000000000003
+93.7601 	EXP 	sentRating: markerPos = 3.1300000000000003
+93.7781 	EXP 	sentRating: markerPos = 3.1300000000000003
+93.7991 	EXP 	sentRating: markerPos = 3.1300000000000003
+93.8169 	EXP 	sentRating: markerPos = 3.1300000000000003
+93.8190 	DATA 	Mouse:  Left button up, pos=(483,437)
+93.8362 	EXP 	sentRating: markerPos = 3.0
+93.8362 	EXP 	sentRating: rating = 3.0
+93.8558 	EXP 	sent_difficulty: autoDraw = False
+93.8558 	EXP 	sentRating: autoDraw = False
+93.8558 	EXP 	fatigueRating: markerPos = None
+93.8558 	EXP 	fatigueRating: markerPos = None
+93.8558 	EXP 	fatigueRating: rating = None
+93.8558 	EXP 	tired: autoDraw = True
+93.8558 	EXP 	fatigueRating: autoDraw = True
+93.9832 	DATA 	Mouse: Left button down, pos=(483,437)
+94.0025 	EXP 	fatigueRating: markerPos = 3.1300000000000003
+94.0201 	EXP 	fatigueRating: markerPos = 3.1300000000000003
+94.0393 	EXP 	fatigueRating: markerPos = 3.1300000000000003
+94.0578 	EXP 	fatigueRating: markerPos = 3.1300000000000003
+94.0679 	DATA 	Mouse:  Left button up, pos=(483,437)
+94.0768 	EXP 	fatigueRating: markerPos = 3.1300000000000003
+94.0942 	EXP 	fatigueRating: markerPos = 3.0
+94.0942 	EXP 	fatigueRating: rating = 3.0
+94.1066 	EXP 	tired: autoDraw = False
+94.1066 	EXP 	fatigueRating: autoDraw = False
+94.1066 	EXP 	strategyUse: autoDraw = True
+96.3220 	DATA 	Keypress: space
+96.3348 	EXP 	strategyUse: autoDraw = False
+96.3348 	EXP 	thanks: autoDraw = True
+97.5046 	DATA 	Keypress: space
+97.5347 	EXP 	thanks: autoDraw = False
+97.5403 	INFO 	saved data to '/Users/Jadyn/Desktop/typo/data/test2_b_typo_VersionB_2021_Jul_21_1415.csv'
+97.5414 	INFO 	saved data to /Users/Jadyn/Desktop/typo/data/test2_b_typo_VersionB_2021_Jul_21_1415.psydat
+97.5543 	EXP 	window1: mouseVisible = True
+97.6824 	DEBUG 	Saving data for typo_VersionB ExperimentHandler
